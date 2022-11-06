@@ -1,0 +1,4 @@
+/home/packchangmin/CLionProjects/final_project_chat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/packchangmin/CLionProjects/final_project_chat/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/packchangmin/CLionProjects/final_project_chat/cmake-build-debug/CMakeFiles/chat_server.dir
+/home/packchangmin/CLionProjects/final_project_chat/cmake-build-debug/CMakeFiles/chat_client.dir
