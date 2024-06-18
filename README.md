@@ -10,15 +10,25 @@ This is program that is based on what we learned from "Kookmin University"'s "Sy
 # How To Build
 
   Cmake를 이용하여 빌드
+  
   Cmake pthread 빌드 오류가 나면 gcc를 이용하여 소스파일 빌드
+  
   gcc -pthread -o chat_server chat_server.c
+  
   gcc -pthread -o chat_client chat_client.c
   
+  
   또는
+  
   gcc -o chat_server chat_server.c -lpthread
+  
   gcc -o chat_client chat_client.c -lpthread
   
+  
   Cmakelists.txt 에서 
+  
   add_executable(chat_server chat_server.c)
+  
   add_executable(chat_client chat_client.c)
+  
   를 따로따로 빌드 실행해 주어야 합니다.
